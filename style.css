@@ -30,20 +30,11 @@ div1 {
 	border: 2px solid blue;
 	display: inline-block;
 	vertical-align: top;
-	width: 175px
+	width: 500px
 	text-align: center;
 }
 div {
 	border: 2px solid blue;
-	text-align: center;
-}
-.box {
-    	float: left;
-    	width: 200px;
-    	margin-left: 10px;
-    	margin-top: 10px;
-    	padding: 5px;
-    	border: 2px solid blue
 	text-align: center;
 }
 #wrapper
@@ -58,7 +49,7 @@ div {
 	margin-left: 0px;
 	float: left;
 	height: 350px;
-	width: 175px;
+	width: 500px;
 	background: #F5F5F5;
 	overflow-y: scroll;
 	margin-bottom: 25px;
