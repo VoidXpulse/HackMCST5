@@ -5,7 +5,7 @@ var treeUpgrade = false;
 var treeUpgradeOneAmount = 0;
 
 function treeClick(){ //will add one to treenum if tree.png is clicked
-  treenum = treenum + treeClickValue;
+  treenum = treenum + treeUpgradeOneAmount;
   lifetimetrees = lifetimetrees + 1 +treeUpgradeOneAmount;
   document.getElementById('treeNumDisplay').innerHTML = "You have planted " + treenum + " trees.";
 }
