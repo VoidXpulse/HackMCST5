@@ -14,5 +14,6 @@ function treeUpgradeOne() { //adds one to tree UpgradeAmount in exchange for tre
   if(treenum >= treeUpgradeOneAmount){
     treenum = treenum - (treeUpgradeOneAmount * 1);
     treeUpgradeOneAmount++;
+    document.getElementById('treeNumDisplay').innerHTML = "You have planted " + treenum + " trees.";
   }
 }
