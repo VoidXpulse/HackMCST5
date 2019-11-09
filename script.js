@@ -6,6 +6,7 @@ var treeUpgradeOneAmount = 1;
 var treePS;
 var autoPlanter;
 var PlanterDrone;
+var treeUpgradeTwoAmount = 0;
 
 function updateTreeDisplay() {
   document.getElementById('treeNumDisplay').innerHTML = "You have " + treenum + " trees currently planted. | You have planted " + lifetimetrees + " trees overall. You automatically make " + treePS + " trees per second."; 
@@ -27,8 +28,15 @@ function treeUpgradeOne() { //adds one to tree UpgradeAmount in exchange for tre
 
 
 function treeUpgradeTwo() { //adds ten to tree UpgradeAmount in exchange for trees.
-  if(treenum >= (treeUpgradeTwoAmount * 10) + treeUpgradeTwoAmount){
-    treenum = treenum - ((treeUpgradeTwoAmount * 10) + treeUpgradeTwoAmount);
+  if(treeUpgradeTwoAmount = 0){
+    if(treenum >= 100) {
+      treenum = treenum - 100;
+      treeUpgradeTwoAmount = treeUpgradeTwoAmount + 10;
+      updateTreeDisplay();
+    }
+  }
+  else if(treenum >= (treeUpgradeTwoAmount * 100) + treeUpgradeTwoAmount * 10 + treeUpgradeTwoAmount){
+    treenum = treenum - ((treeUpgradeTwoAmount * 100) + treeUpgradeTwoAmount * 10 + treeUpgradeTwoAmount);
     treeUpgradeTwoAmount = treeUpgradeTwoAmount + 10;
     updateTreeDisplay();
   }
