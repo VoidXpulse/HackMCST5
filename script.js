@@ -16,8 +16,8 @@ function updateTreeDisplay() {
 setInterval(autoTreeClick ,1000)
 
 function autoTreeClick(){
-  treenum = treenum + treeUpgradeOneAmount + treeUpgradeTwoAmount;
-  lifetimetrees = lifetimetrees + treeUpgradeOneAmount + treeUpgradeTwoAmount;
+  treenum = treenum + treePS;
+  lifetimetrees = lifetimetrees + treePS;
   updateTreeDisplay();
 }
 
