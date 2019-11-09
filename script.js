@@ -3,7 +3,7 @@ var lifetimetrees = 0;
 var treeClickMult = 0;
 var treeUpgrade = false;
 var treeUpgradeOneAmount = 1;
-var treePS;
+var treePS = 0;
 var autoPlanter;
 var PlanterDrone;
 var treeUpgradeTwoAmount = 0;
