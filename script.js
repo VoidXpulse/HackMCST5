@@ -54,7 +54,7 @@ function treeUpgradeTwo() { //adds ten to tree UpgradeAmount in exchange for tre
     treenum = treenum - ((treeUpgradeTwoAmount * 10) + treeUpgradeTwoAmount * 5 + treeUpgradeTwoAmount);
     treeUpgradeTwoAmount = treeUpgradeTwoAmount + 10;
     updateTreeDisplay();
-    document.getElementById('treeUpgradeTwoPrice').innerHTML = treeUpgradeTwoAmount * 10) + treeUpgradeTwoAmount * 5 + treeUpgradeTwoAmount;
+    document.getElementById('treeUpgradeTwoPrice').innerHTML = treeUpgradeTwoAmount * 10 + treeUpgradeTwoAmount * 5 + treeUpgradeTwoAmount;
   }
 }
 
