@@ -15,14 +15,16 @@ p  {
   border: 1px solid powderblue;
   padding: 30px;
 }
+hr {
+width: 300px;
+margin-left: auto;
+margin-right: auto;
+height: 100px;
+background-color:#666;
+opcaity: 0.5;
+}
 </style>
 </head>
 <body>
-<Header>
-
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
-
-</Header>
 </body>
 </html>
