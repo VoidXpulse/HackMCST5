@@ -3,25 +3,58 @@
 <head>
 <style>
 body {background-color: lightyellow;}
+body {background-color: darkgray;}
 h1 {
   color: blue;
   font-family: verdana;
-  font-size: 300%;
+  font-size: 200%;
+  border: 1px solid #000;
+  width: 50%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+h2 {
+  Color: blue;
+  font-family:
 }
 p  {
   color: red;
   font-family: courier;
-  font-size: 160%;
-  border: 1px solid powderblue;
-  padding: 30px;
+  font-size: 100%;
 }
-hr {
-width: 300px;
-margin-left: auto;
-margin-right: auto;
-height: 100px;
-background-color:#666;
-opcaity: 0.5;
+div1 {
+border: 2px solid blue;
+display: inline-block;
+vertical-align: top;
+width: 175px
+}
+div {
+border: 2px solid blue;
+}
+.box {
+    float: left;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid blue;
+}
+#wrapper
+{
+	text-align: center;
+	width: 500px;
+	margin: auto;
+}
+.scrollbar
+{
+	margin-left: 0px;
+	float: left;
+	height: 350px;
+	width: 175px;
+	background: #F5F5F5;
+	overflow-y: scroll;
+	margin-bottom: 25px;
 }
 </style>
 </head>
