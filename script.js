@@ -21,6 +21,10 @@ function autoTreeClick(){
   updateTreeDisplay();
 }
 
+function calcTreePS(){
+  treePS = autoTreeUPONEamount;
+}
+
 function treeClick(){ //will add one to treenum if tree.png is clicked
   treenum = treenum + treeUpgradeOneAmount + treeUpgradeTwoAmount;
   lifetimetrees = lifetimetrees + treeUpgradeOneAmount + treeUpgradeTwoAmount;
@@ -56,5 +60,6 @@ function upgradeAutoPlanter(){
     treenum = treenum - ((autoTreeUPONEamount * 50) + autoTreeUPONEamount);
     autoTreeUPONEamount++;
     updateTreeDisplay();
+    calcTreeps();
   }
 }
