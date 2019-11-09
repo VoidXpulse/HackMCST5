@@ -13,15 +13,15 @@ function updateTreeDisplay() {
   document.getElementById('treeNumDisplay').innerHTML = "You have " + treenum + " trees currently planted. | You have planted " + lifetimetrees + " trees overall. You automatically make " + treePS + " trees per second."; 
 }
 
-setInterval(autoTreeClick ,1000)
+setInterval(autoTreeClick ,1000)//runs autotree
 
-function autoTreeClick(){
+function autoTreeClick(){//Automatically clicks for trees. 
   treenum = treenum + treePS;
   lifetimetrees = lifetimetrees + treePS;
   updateTreeDisplay();
 }
 
-function calcTreePS(){
+function calcTreePS(){// calculates Trees Per Second
   treePS = autoTreeUPONEamount;
 }
 
@@ -55,7 +55,7 @@ function treeUpgradeTwo() { //adds ten to tree UpgradeAmount in exchange for tre
   }
 }
 
-function upgradeAutoPlanter(){
+function upgradeAutoPlanter(){//Function for increasing amount of AutoPlanters
   if(treenum >= (autoTreeUPONEamount * 50) + autoTreeUPONEamount){
     treenum = treenum - ((autoTreeUPONEamount * 50) + autoTreeUPONEamount);
     autoTreeUPONEamount++;
