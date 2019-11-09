@@ -30,18 +30,20 @@ div1 {
 	border: 2px solid blue;
 	display: inline-block;
 	vertical-align: top;
-	width: 500px
+	width: 700px
 	height: 350px
 	text-align: center;
 }
 div {
 	border: 2px solid blue;
 	text-align: center;
+	width: 700px
+	height: 350px
 }
 #wrapper
 {
 	text-align: center;
-	width: 500px;
+	width: 700px;
 	margin: auto;
 	background-color: darkgray;
 }
@@ -50,7 +52,7 @@ div {
 	margin-left: 0px;
 	float: left;
 	height: 350px;
-	width: 500px;
+	width: 700px;
 	background: #F5F5F5;
 	overflow-y: scroll;
 	margin-bottom: 25px;
