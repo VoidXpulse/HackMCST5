@@ -45,7 +45,6 @@ border: 2px solid blue;
 	text-align: center;
 	width: 500px;
 	margin: auto;
-	background-color: darkgray;
 }
 .scrollbar
 {
@@ -56,6 +55,7 @@ border: 2px solid blue;
 	background: #F5F5F5;
 	overflow-y: scroll;
 	margin-bottom: 25px;
+	background-color: darkgray;
 }
 </style>
 </head>
