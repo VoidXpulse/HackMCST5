@@ -12,5 +12,5 @@ function treeClick(){ //will add one to treenum if tree.png is clicked
 
 function treeUpgradeOne() {
   treenum = treenum - (treeUpgradeOneAmount * 1);
-  treeUpgradeOne++;
+  treeUpgradeOneAmount++;
 }
