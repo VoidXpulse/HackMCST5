@@ -27,7 +27,7 @@ p  {
 	text-align: center;
 }
 div2 {
-	width: 1000px;
+	width: 500px;
 	height: 500px;
 }
 div1 {
@@ -41,8 +41,6 @@ div1 {
 div {
 	border: 2px solid blue;
 	text-align: center;
-	width: 700px;
-	height: 350px;
 }
 #wrapper
 {
