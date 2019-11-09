@@ -48,8 +48,8 @@ function treeUpgradeTwo() { //adds ten to tree UpgradeAmount in exchange for tre
       updateTreeDisplay();
     }
   }
-  else if(treenum >= (treeUpgradeTwoAmount * 100) + treeUpgradeTwoAmount * 10 + treeUpgradeTwoAmount){
-    treenum = treenum - ((treeUpgradeTwoAmount * 100) + treeUpgradeTwoAmount * 10 + treeUpgradeTwoAmount);
+  else if(treenum >= (treeUpgradeTwoAmount * 10) + treeUpgradeTwoAmount * 5 + treeUpgradeTwoAmount){
+    treenum = treenum - ((treeUpgradeTwoAmount * 10) + treeUpgradeTwoAmount * 5 + treeUpgradeTwoAmount);
     treeUpgradeTwoAmount = treeUpgradeTwoAmount + 10;
     updateTreeDisplay();
   }
