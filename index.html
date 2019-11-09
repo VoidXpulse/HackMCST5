@@ -9,13 +9,10 @@
    <script src="script.js"></script>
    
    <header>
-    <p>
-    You have planted 
-      <script type="text/javascript">
-        document.write(treenum)
+    <p id="treeNumDisplay"></p>
+    <script type="text/javascript">
+        document.getElementById("treeNumDisplay").innerHTML = treenum;
       </script>
-     trees.
-    </p>
      <div class="Title">
        <h1>TREES</h1>
             <p>Click on tree to plant a tree.</p>
