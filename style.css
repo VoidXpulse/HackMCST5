@@ -26,19 +26,23 @@ p  {
  	font-size: 100%;
 	text-align: center;
 }
+div2 {
+	width: 1000px;
+	height: 500px;
+}
 div1 {
 	border: 2px solid blue;
 	display: inline-block;
 	vertical-align: top;
-	width: 700px
-	height: 350px
+	width: 700px;
+	height: 350px;
 	text-align: center;
 }
 div {
 	border: 2px solid blue;
 	text-align: center;
-	width: 700px
-	height: 350px
+	width: 700px;
+	height: 350px;
 }
 #wrapper
 {
