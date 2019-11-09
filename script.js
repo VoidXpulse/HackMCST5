@@ -10,7 +10,7 @@ function treeClick(){ //will add one to treenum if tree.png is clicked
   document.getElementById('treeNumDisplay').innerHTML = "You have planted " + treenum + " trees.";
 }
 
-function treeUpgradeOne() {
+function treeUpgradeOne() { //adds one to tree UpgradeAmount in exchange for trees.
   treenum = treenum - (treeUpgradeOneAmount * 1);
   treeUpgradeOneAmount++;
 }
