@@ -60,6 +60,6 @@ function upgradeAutoPlanter(){
     treenum = treenum - ((autoTreeUPONEamount * 50) + autoTreeUPONEamount);
     autoTreeUPONEamount++;
     updateTreeDisplay();
-    calcTreeps();
+    calcTreePS();
   }
 }
