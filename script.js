@@ -7,9 +7,18 @@ var treePS = 0;
 var autoPlanter;
 var PlanterDrone;
 var treeUpgradeTwoAmount = 0;
+var autoTreeUPONEamount = 0;
 
 function updateTreeDisplay() {
   document.getElementById('treeNumDisplay').innerHTML = "You have " + treenum + " trees currently planted. | You have planted " + lifetimetrees + " trees overall. You automatically make " + treePS + " trees per second."; 
+}
+
+setInterval(autoTreeClick ,1000)
+
+function autoTreeClick(){
+  treenum = treenum + treeUpgradeOneAmount + treeUpgradeTwoAmount;
+  lifetimetrees = lifetimetrees + treeUpgradeOneAmount + treeUpgradeTwoAmount;
+  updateTreeDisplay();
 }
 
 function treeClick(){ //will add one to treenum if tree.png is clicked
@@ -38,6 +47,14 @@ function treeUpgradeTwo() { //adds ten to tree UpgradeAmount in exchange for tre
   else if(treenum >= (treeUpgradeTwoAmount * 100) + treeUpgradeTwoAmount * 10 + treeUpgradeTwoAmount){
     treenum = treenum - ((treeUpgradeTwoAmount * 100) + treeUpgradeTwoAmount * 10 + treeUpgradeTwoAmount);
     treeUpgradeTwoAmount = treeUpgradeTwoAmount + 10;
+    updateTreeDisplay();
+  }
+}
+
+function upgradeAutoPlanter(){
+  if(treenum >= (autoTreeUPONEamount * 50) + autoTreeUPONEamount){
+    treenum = treenum - ((autoTreeUPONEamount * 50) + autoTreeUPONEamount);
+    autoTreeUPONEamount++;
     updateTreeDisplay();
   }
 }
