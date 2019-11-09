@@ -5,40 +5,46 @@
 body {background-color: lightyellow;}
 body {background-color: darkgray;}
 h1 {
-  color: blue;
-  font-family: verdana;
-  font-size: 200%;
-  border: 1px solid #000;
-  width: 50%;
-  margin: auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  	color: blue;
+  	font-family: verdana;
+  	font-size: 200%;
+  	border: 1px solid #000;
+  	width: 50%;
+  	margin: auto;
+  	margin-top: 5%;
+  	margin-bottom: 5%;
+	text-align: center;
 }
 h2 {
-  Color: blue;
-  font-family:
+  	Color: blue;
+  	font-family:
+	text-align: center;
 }
 p  {
-  color: red;
-  font-family: courier;
-  font-size: 100%;
+  	color: red;
+  	font-family: courier;
+ 	font-size: 100%;
+	text-align: center;
 }
 div1 {
-border: 2px solid blue;
-display: inline-block;
-vertical-align: top;
-width: 175px
+	border: 2px solid blue;
+	display: inline-block;
+	vertical-align: top;
+	width: 175px
+	text-align: center;
 }
 div {
-border: 2px solid blue;
+	border: 2px solid blue;
+	text-align: center;
 }
 .box {
-    float: left;
-    width: 200px;
-    margin-left: 10px;
-    margin-top: 10px;
-    padding: 5px;
-    border: 2px solid blue;
+    	float: left;
+    	width: 200px;
+    	margin-left: 10px;
+    	margin-top: 10px;
+    	padding: 5px;
+    	border: 2px solid blue
+	text-align: center;
 }
 #wrapper
 {
