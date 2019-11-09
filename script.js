@@ -36,6 +36,7 @@ function treeUpgradeOne() { //adds one to tree UpgradeAmount in exchange for tre
     treenum = treenum - ((treeUpgradeOneAmount * 10) + treeUpgradeOneAmount);
     treeUpgradeOneAmount++;
     updateTreeDisplay();
+    document.getElementById('treeUpgradeOnePrice').innerHTML = (autoTreeUPONEamount * 50) + autoTreeUPONEamount;
   }
 }
 
@@ -46,12 +47,14 @@ function treeUpgradeTwo() { //adds ten to tree UpgradeAmount in exchange for tre
       treenum = treenum - 100;
       treeUpgradeTwoAmount = treeUpgradeTwoAmount + 10;
       updateTreeDisplay();
+      document.getElementById('treeUpgradeTwoPrice').innerHTML = 100;
     }
   }
   else if(treenum >= (treeUpgradeTwoAmount * 10) + treeUpgradeTwoAmount * 5 + treeUpgradeTwoAmount){
     treenum = treenum - ((treeUpgradeTwoAmount * 10) + treeUpgradeTwoAmount * 5 + treeUpgradeTwoAmount);
     treeUpgradeTwoAmount = treeUpgradeTwoAmount + 10;
     updateTreeDisplay();
+    document.getElementById('treeUpgradeTwoPrice').innerHTML = treeUpgradeTwoAmount * 10) + treeUpgradeTwoAmount * 5 + treeUpgradeTwoAmount;
   }
 }
 
@@ -61,5 +64,6 @@ function upgradeAutoPlanter(){//Function for increasing amount of AutoPlanters
     autoTreeUPONEamount++;
     updateTreeDisplay();
     calcTreePS();
+    
   }
 }
