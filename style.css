@@ -12,6 +12,8 @@ p  {
   color: red;
   font-family: courier;
   font-size: 160%;
+  border: 1px solid powderblue;
+  padding: 30px;
 }
 </style>
 </head>
